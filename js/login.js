@@ -14,7 +14,6 @@ function checkWriting(){
 }
 
 function changeColor(){
-    console.log("theKEy")
     button.classList.remove("logOff");
     button.classList.contains("logOn");
 }
