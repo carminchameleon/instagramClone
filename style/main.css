@@ -149,6 +149,7 @@ html{
     max-width: 614px;
     width: 100%;
     margin: 0;
+    margin-right: 35px;
     padding: 0;
 }
 
@@ -209,8 +210,8 @@ html{
 }
 
 .postImg img{
-    width: 614px;
-    height: 614px;
+    width: 612px;
+    height: 612px;
 }
 
 .profileId{
@@ -277,7 +278,7 @@ html{
     max-height: 100px;
     padding-left: 16px;
     padding-right: 16px;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
 
 }
@@ -406,16 +407,18 @@ html{
 .storyTop{
     width: 291px;
     height: 19px;
-    margin: 12px 0 0 ;
-    padding: 4px 16px;
+    margin: 0px;
+    margin-top: 14px;
+    padding: 0 13px;
+    /* padding-left: 5px; */
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
 }
 
 .title{
-    width: 205px;
-    padding: 0;
+    width: 190px;
+    padding-left: 10px;
     margin: 0;
     color: #999;
     font-size: 14px;
@@ -425,12 +428,13 @@ html{
     font-size: 14px;
     color: #262626;
     margin:0;
+
     font-weight: 500;
 }
 
 .storyContainer{
     overflow-y: scroll;
-
+    overflow-x: hidden;
     width: 291px;
     height: 182px;
     margin : 8px 0 0 ;
@@ -447,7 +451,9 @@ html{
     text-align: left;
     display: flex;
     flex-direction: row;
-    margin: 4px;
+    margin: 8px;
+    margin-left: 0px;
+
     }
 
 .storyImg{
@@ -479,6 +485,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 .storyId{
@@ -503,7 +510,8 @@ html{
     justify-content: flex-start;
     background-color: rgba(var(--cdc,255,255,255),1);
     border-radius: 4px;
-    overflow-y: scroll;
+  
+    overflow : hidden;
     border: 1px solid rgba(var(--b6a,219,219,219),1)
 
 }
@@ -515,12 +523,12 @@ html{
     padding: 4px 16px;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
     
 
 }
 .RM_container{
-    margin-left: 4px;
+    margin-left: 0px;
     width: 287px;
     height: 160px;
     display: flex;
